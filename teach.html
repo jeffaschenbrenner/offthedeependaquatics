@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teach With Us | Off The Deep End Aquatics — Fort Worth, TX</title>
+  <meta name="description" content="Join our team of water aerobics instructors serving the Dallas–Fort Worth metroplex. Flexible scheduling, competitive pay, and a passionate team." />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .teacher-page-hero {
+      background: linear-gradient(145deg, #1a5c2e 0%, #1e7a40 60%, #34b86a 100%);
+      color: #fff;
+      padding: 100px 24px 80px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .teacher-page-hero::after {
+      content: '';
+      position: absolute;
+      bottom: -2px; left: 0; right: 0;
+      height: 60px;
+      background: var(--white);
+      clip-path: ellipse(55% 100% at 50% 100%);
+    }
+    .teacher-page-hero .hero-wave {
+      background-image: radial-gradient(circle at 20% 80%, rgba(52,184,106,0.25) 0%, transparent 50%),
+                        radial-gradient(circle at 80% 20%, rgba(255,255,255,0.08) 0%, transparent 40%);
+    }
+    .teacher-page-hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(34px, 6vw, 58px);
+      font-weight: 700;
+      line-height: 1.12;
+      margin-bottom: 18px;
+      color: #fff;
+    }
+    .teacher-page-hero p {
+      font-size: 18px;
+      font-weight: 300;
+      color: rgba(255,255,255,0.82);
+      max-width: 540px;
+      margin: 0 auto 36px;
+      line-height: 1.65;
+    }
+
+    .steps {
+      counter-reset: step;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 32px;
+    }
+    .step {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+    }
+    .step-num {
+      counter-increment: step;
+      flex-shrink: 0;
+      width: 36px; height: 36px;
+      background: var(--ocean);
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 500;
+      font-size: 15px;
+      margin-top: 2px;
+    }
+    .step-num::before { content: counter(step); }
+    .step-body h4 { font-size: 16px; font-weight: 500; color: var(--navy); margin-bottom: 3px; }
+    .step-body p { font-size: 14px; color: var(--muted); line-height: 1.6; }
+
+    .green-cta {
+      background: linear-gradient(135deg, #1a5c2e 0%, #1e7a40 100%);
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">Off The Deep End <span>Aquatics</span></a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="swim-lessons.html">Swim Lessons</a>
+      <a href="water-aerobics.html">Water Aerobics</a>
+      <a href="teach.html" class="active">Teach With Us</a>
+      <a href="contact.html" class="btn-nav">Contact Us</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="teacher-page-hero">
+  <div class="hero-wave"></div>
+  <div class="hero-badge" style="background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.28);">Now Hiring — DFW Metroplex</div>
+  <h1>Share Your Passion<br>for the Water.</h1>
+  <p>We're looking for enthusiastic, certified water aerobics instructors to lead our growing adult fitness programs across Dallas–Fort Worth.</p>
+  <div class="hero-btns">
+    <a href="#apply" class="btn btn-white">Apply Now</a>
+    <a href="#what-we-look-for" class="btn btn-outline-white">Learn More</a>
+  </div>
+</section>
+
+<!-- WHY TEACH WITH US -->
+<section class="section" id="what-we-look-for">
+  <div class="container">
+    <p class="section-label">Why teach with us</p>
+    <h2 class="section-title">A Team That Loves What It Does</h2>
+    <p class="section-sub">Off The Deep End Aquatics has been connecting DFW communities with quality aquatic fitness since 2016. Here's what you can expect when you join us.</p>
+
+    <div class="perk-grid" style="margin-top: 36px;">
+      <div class="perk">
+        <div class="perk-icon">📅</div>
+        <div>
+          <h4>Flexible scheduling</h4>
+          <p>We work around your availability. Part-time and supplemental opportunities available throughout the week.</p>
+        </div>
+      </div>
+      <div class="perk">
+        <div class="perk-icon">📍</div>
+        <div>
+          <h4>Multiple DFW locations</h4>
+          <p>Teach at a pool that's convenient for you — we partner with city, school, recreation, and private facilities.</p>
+        </div>
+      </div>
+      <div class="perk">
+        <div class="perk-icon">🤝</div>
+        <div>
+          <h4>Supportive team</h4>
+          <p>Join a warm, experienced team that genuinely cares about the communities they serve.</p>
+        </div>
+      </div>
+      <div class="perk">
+        <div class="perk-icon">💙</div>
+        <div>
+          <h4>Make a difference</h4>
+          <p>Improve adults' health, mobility, and confidence through the joy of aquatic fitness.</p>
+        </div>
+      </div>
+      <div class="perk">
+        <div class="perk-icon">🏆</div>
+        <div>
+          <h4>Grow your skills</h4>
+          <p>Gain experience with diverse adult populations and expand your coaching repertoire.</p>
+        </div>
+      </div>
+      <div class="perk">
+        <div class="perk-icon">🌊</div>
+        <div>
+          <h4>Year-round work</h4>
+          <p>Indoor winter sessions mean consistent opportunities, not just summer gigs.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT WE LOOK FOR -->
+<section class="section" style="background: var(--foam); padding: 72px 0;">
+  <div class="container">
+    <div class="two-col">
+      <div>
+        <p class="section-label">Qualifications</p>
+        <h2 class="section-title">What We Look For</h2>
+        <p class="section-sub" style="margin-bottom: 24px;">We welcome instructors at various experience levels. Here's what makes a great candidate:</p>
+
+        <div class="steps">
+          <div class="step">
+            <div class="step-num"></div>
+            <div class="step-body">
+              <h4>Aquatic fitness certification</h4>
+              <p>AEA, AFAA, ACE, or equivalent water aerobics or fitness certification is preferred.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num"></div>
+            <div class="step-body">
+              <h4>CPR / First Aid certified</h4>
+              <p>Current CPR and First Aid certification required or willingness to obtain prior to teaching.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num"></div>
+            <div class="step-body">
+              <h4>Experience with adult learners</h4>
+              <p>Comfortable leading groups of adults with varying fitness levels, ages, and abilities.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num"></div>
+            <div class="step-body">
+              <h4>Enthusiastic &amp; reliable</h4>
+              <p>A positive, encouraging energy and strong commitment to showing up for your classes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="highlight-box" style="margin: 0 0 20px;">
+          <strong>Not yet certified?</strong><br>
+          We encourage interested candidates to reach out even if you're working toward your certification. We'd love to hear from you.
+        </div>
+        <div class="info-block">
+          <div class="ib-label">Questions about the role?</div>
+          <div class="ib-val" style="margin-top: 6px;">
+            <a href="tel:6822007865">Call 682-200-7865</a><br>
+            <a href="mailto:Linda@OffTheDeepEndAquatics.com" style="font-size: 13px;">Linda@OffTheDeepEndAquatics.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- APPLY SECTION -->
+<section class="section" id="apply">
+  <div class="container">
+    <p class="section-label">Apply</p>
+    <h2 class="section-title">Ready to Jump In?</h2>
+    <p class="section-sub">Download our employment application, complete it, and email it to Linda or bring it to your nearest class location.</p>
+
+    <div style="margin: 36px 0; display: flex; gap: 16px; flex-wrap: wrap; align-items: center;">
+      <a href="Forms/HireApp.pdf" class="btn btn-navy" download>
+        ⬇ Download Application (PDF)
+      </a>
+      <span style="font-size: 14px; color: var(--muted);">Then email to <a href="mailto:Linda@OffTheDeepEndAquatics.com" style="color: var(--ocean);">Linda@OffTheDeepEndAquatics.com</a></span>
+    </div>
+
+    <div class="form-section">
+      <h3>Or Send Us a Quick Note</h3>
+      <p class="form-sub">Fill out the form below and we'll get back to you about next steps.</p>
+
+      <form action="mailto:Linda@OffTheDeepEndAquatics.com" method="post" enctype="text/plain">
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="first-name">First name</label>
+            <input type="text" id="first-name" name="first-name" placeholder="Jane" required />
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last name</label>
+            <input type="text" id="last-name" name="last-name" placeholder="Smith" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone number</label>
+            <input type="tel" id="phone" name="phone" placeholder="(817) 555-0100" />
+          </div>
+          <div class="form-group">
+            <label for="cert">Current certifications</label>
+            <input type="text" id="cert" name="cert" placeholder="e.g. AEA, CPR, ACE" />
+          </div>
+          <div class="form-group">
+            <label for="availability">General availability</label>
+            <input type="text" id="availability" name="availability" placeholder="e.g. Weekday mornings, weekends" />
+          </div>
+          <div class="form-group full">
+            <label for="message">Tell us a bit about yourself</label>
+            <textarea id="message" name="message" placeholder="Your experience, why you're interested, any questions..."></textarea>
+          </div>
+        </div>
+        <div style="margin-top: 20px;">
+          <button type="submit" class="btn btn-navy">Send Application</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="cta-banner green-cta" style="margin-top: 48px;">
+      <h2>Come On — Take the Plunge!</h2>
+      <p>We'd love to have passionate, dedicated instructors join our team and help more DFW adults discover the joy of aquatic fitness.</p>
+      <a href="https://www.facebook.com/OffTheDeepEndAquatics" target="_blank" rel="noopener" class="btn btn-white">
+        Follow Us on Facebook
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">Off The Deep End Aquatics</div>
+        <p class="footer-desc">Professional water aerobics and swim instruction serving the Dallas–Fort Worth metroplex since 2016.</p>
+        <br />
+        <a href="https://www.facebook.com/OffTheDeepEndAquatics" target="_blank" rel="noopener" class="fb-link">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          Follow us on Facebook
+        </a>
+      </div>
+      <div class="footer-col">
+        <h4>Programs</h4>
+        <a href="swim-lessons.html">Swim Lessons</a>
+        <a href="water-aerobics.html">Water Aerobics</a>
+        <a href="teach.html">Teach With Us</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="tel:6822007865">682-200-7865</a>
+        <a href="mailto:Linda@OffTheDeepEndAquatics.com">Linda@OffTheDeepEndAquatics.com</a>
+        <a href="contact.html">Contact Page</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2025 Off The Deep End Aquatics, Inc. All rights reserved.</span>
+      <span>Fort Worth, TX</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
